@@ -1,0 +1,132 @@
+.subtitle{
+    
+    color: brown;
+    text-align: center;
+
+}
+
+.dummy{
+    width: 100%;
+    text-align: center;
+
+
+
+}
+.container{
+    text-align: center;
+    height: 100px;
+    width: 100;
+    background-color: blanchedalmond
+}
+
+
+
+
+
+#login {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+    background: rgb(48, 39, 39);
+}
+
+	.login-card {
+        background: #fff;
+    
+        font-size: 3.9em;
+		width: 24rem;
+        box-shadow: 0 0 7px 0 rgba(0, 0, 0, 0.11);
+        height: 600px;
+        transition: 5s;
+        color: green;
+    }
+
+		.card-title {
+            background-color:black;
+            text-align: center;
+            padding: 2rem;
+        }
+
+			h1 {
+				color: #fff;
+				text-align: center;
+				font-size: 1.2rem;
+			}
+		
+
+		.content {
+			padding: 3rem 2.5rem 5rem;
+		}
+
+		#email, #password {
+			display: block;
+			width: 100%;
+			font-size: 1rem;
+			margin-bottom: 1.75rem;
+			padding: 0.25rem 0;
+	
+			
+            
+        }
+
+			&:hover {
+				border-color: $grey;
+			}
+
+			&:active, &:focus {
+				border-color: $primary;
+			}
+		
+
+		.checkbox {
+			color: $grey-light;
+            font-size: 0.8rem;
+        }
+
+			span {
+				margin-left: 0.5rem;
+			}
+		
+
+		a {
+			font-size: 0.8rem;
+		}
+
+		.options {
+			color: $grey-light;
+			margin-bottom: 1.5rem;
+		}
+
+		button {
+			cursor: pointer;
+			font-size: 1.2rem;
+			color: $primary;
+			border-radius: 4rem;
+			display: block;
+			width: 100%;
+			background: transparent;
+			border: 2px solid $primary;
+			padding: 0.9rem 0 1.1rem;
+            transition: color .5s, border-color .5s;
+        }
+
+			&:hover, &:focus {
+				color: darken($primary, 10%);
+				border-color: darken($primary, 10%);
+			}
+
+			&:active {
+				transform: translateY(1px);
+			
+	}
+
+
+label {
+	cursor: pointer;
+}
+
+.regular-checkbox {
+	display: none;
+}
+
